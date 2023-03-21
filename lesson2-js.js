@@ -13,3 +13,43 @@ console.log(result2);
 let actress='jennifer lawrence';
 let movie='the hunger game';
 console.log(`${actress} is played in ${movie}`);
+
+
+////////////
+function greet(){
+    return 'hi'
+  }
+  console.log(greet())
+  
+  function greet1(name){
+    return 'hi '+name
+  }
+  console.log(greet1('tugce'))
+  
+  
+  let greet2=function(name){
+    return 'hi ' +(name)
+  }
+  console.log(greet2('sena'));
+  
+  /// Arrow Function ////
+  
+  ///1
+  const greet4=(name)=>{
+    return 'hi '+ name
+  }
+  console.log(greet4('zak'))
+  
+  ////2
+  const greet5=(name)=> 'hi '+name
+  console.log(greet5('sultan'))
+  
+  ///3
+  const greet6=name=>'hi ' + name
+  console.log(greet6('bayram'))
+  
+  
+  //get a num from user using arrow func. and multply by 10
+  
+  const number1=number=>number*10
+  console.log(number1(2))
